@@ -1,7 +1,7 @@
 # dinoflag-alt-splice
 This repository contains modified scripts for gene-prediction methods to recognise the non-canonical (alternative) intron splice sites, tailored for dinoflagellate genomes.
 
-**AUGUSTUS_modified_files.tar.gz**: the modified scripts for AUGUSTUS (7 files):
+**AUGUSTUS_modified_files.tar.gz**: the modified scripts for AUGUSTUS (7 files), to replace the files of the same names in the ab initio gene prediction package of AUGUSTUS (http://bioinf.uni-greifswald.de/augustus/).
 ~~~~
 etraining.cc
 geneticcode.hh
@@ -12,7 +12,7 @@ types.cc
 types.hh
 ~~~~
 
-**PASA_modified_files.tar.gz**: the modified script for PASA (1 file):
+**PASA_modified_files.tar.gz**: the modified script for PASA (1 file), the PERL module to replace the file of the same name in PASA (https://github.com/PASApipeline/PASApipeline):
 ~~~~
 CDNA_alignment.pm
 ~~~~
